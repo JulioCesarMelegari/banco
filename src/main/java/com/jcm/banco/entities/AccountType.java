@@ -15,4 +15,5 @@ public enum AccountType {
         this.type = type;
     }
 
+
 }
