@@ -1,14 +1,10 @@
 package com.jcm.banco.entities;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 
-@AllArgsConstructor
-@NoArgsConstructor
 @Data
 @Entity(name = "tb_card")
 public class Card {

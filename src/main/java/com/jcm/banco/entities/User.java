@@ -1,12 +1,10 @@
 package com.jcm.banco.entities;
 
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.Data;
 
 import java.util.List;
 
-@AllArgsConstructor
-@NoArgsConstructor
 @Data
 @Entity(name = "tb_user")
 public class User {
